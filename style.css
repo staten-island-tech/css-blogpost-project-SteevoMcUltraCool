@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(rgb(225,225,225),rgb(215,220,255));
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.Mainbox  {
+    height: calc(100% - 200px);
+    min-width: 80%;
+    width: 650px;
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    margin: auto;
+}
