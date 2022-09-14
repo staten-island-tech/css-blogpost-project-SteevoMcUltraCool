@@ -20,6 +20,45 @@ h2 {
     min-width: 80%;
     width: 650px;
     max-width: 100%;
-    background-color: rgba(0,0,0,0.9);
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.Post  {
+    background-color: white;
+    min-height: 38%;
+    height:350px;
+    margin: 50px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    max-height: 100%;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 30px;
+    overflow-y: auto;
+}
+
+.Author {
+    width: 100%;
+    position: sticky;
+    top: calc(100% - 50px);
+    height: 100px;
+    max-height: 22%;
+    border-radius: 30px;
+    background-color: rgb(230,230,230);
+}
+.Author img {
+    height: 90%;
+    width: 70px;
+    top:5%;
+    left: 5px;
+    position: relative;
+    border-radius: 100%;
+}
+.PContent {
+
 }
