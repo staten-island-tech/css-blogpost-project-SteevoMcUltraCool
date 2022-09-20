@@ -1,54 +1,58 @@
 body {
-    background-image: linear-gradient(rgb(225,225,225),rgb(215,220,255));
+  background-image: linear-gradient(rgb(225, 225, 225), rgb(215, 220, 255));
 }
+
 h1 {
-    text-align: center;
-    font-size: 80px;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 24px;
-    text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  text-align: center;
 }
 
 
-.Mainbox  {
-    height: calc(100% - 200px);
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow-y: auto;
+.Mainbox {
+  height: calc(100% - 200px);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
 }
 
-.Post  {
-    background-color: white;
-    min-height: 38%;
-    min-width: 28%;
-    height:450px;
-    margin: 50px;
-    margin-top: 75px;
-    margin-bottom: 25px;
-    max-height: 100%;
-    width: 350px;
-    max-width: 100%;
-    border-radius: 30px;
+.Post {
+  background-color: white;
+  min-height: 38%;
+  min-width: 28%;
+  height: 450px;
+  margin: 50px;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  max-height: 100%;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 30px;
 }
-.Post  #date {
+
+.Post #date {
   font-size: 14px;
   color: #999999;
   position: relative;
-  left:calc(100% - 100px);
-  margin-top:10px;
+  left: calc(100% - 100px);
+  margin-top: 10px;
   margin-bottom: 0px;
-  width: 90px;  
+  width: 90px;
   font-style: italic;
   padding: 0px;
 }
+
 .Post h2 {
   position: relative;
   top: 0px;
@@ -62,51 +66,57 @@ h2 {
 .Post .Main {
   height: calc(77% - 53px);
   width: 100%;
-      overflow-y: auto;
+  overflow-y: auto;
 
 }
+
 #floated {
-  float:left;
+  float: left;
   width: 100px;
   max-width: 100%;
   min-width: 45%;
   background-color: red;
   margin-right: 5px;
 }
+
 .Post .Main img {
   width: 100%;
 }
+
 .Post .Main p {
   text-align: justify;
   margin: calc(3px + 1%);
-  
+
 }
+
 .Author {
-    width: 100%;
-    position: sticky;
-    top: calc(100% - 80px);
-    height: 80px;
-    border-radius: 30px;
-    background-color: rgb(230,230,230);
+  width: 100%;
+  position: sticky;
+  top: calc(100% - 80px);
+  height: 80px;
+  border-radius: 30px;
+  background-color: rgb(230, 230, 230);
 }
 
 .Author img {
-    height: 90%;
-    width: 70px;
-    top:5%;
-    left: 5px;
-    position: relative;
-    border-radius: 100%;
+  height: 90%;
+  width: 70px;
+  top: 5%;
+  left: 5px;
+  position: relative;
+  border-radius: 100%;
 }
+
 .Author h3 {
   font-size: 20px;
   font-weight: bold;
   position: absolute;
   top: 8px;
   left: 78px;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
+
 .Author p {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -115,7 +125,7 @@ h2 {
   font-style: italic;
   top: 34px;
   left: 84px;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
   width: auto
 }
@@ -125,19 +135,20 @@ h2 {
   position: absolute;
   top: 55px;
   left: 78px;
-  margin:0px;
-  padding:0px; 
+  margin: 0px;
+  padding: 0px;
 }
 
 .Author a:link {
-  color: rgb(0,127,255);
+  color: rgb(0, 127, 255);
 }
 
 .Author a:Visited {
-  color: rgb(0,127,255)
+  color: rgb(0, 127, 255)
 }
+
 .Author a:Hover {
-  color: rgb(255,127,255)
+  color: rgb(255, 127, 255)
 }
 
 
@@ -145,26 +156,29 @@ h2 {
   width: 5px;
   margin-right: 2px;
 }
+
 ::-webkit-scrollbar-track {
-    background-color: white;
+  background-color: white;
 }
+
 ::-webkit-scrollbar-thumb {
-    background-color: #999999;
-    border-radius: 5px;
+  background-color: #999999;
+  border-radius: 5px;
 }
 
 .coolCorner {
-    position: absolute;
-    transform: rotate(45deg);
-    background-color: rgb(215,220,255);
-    height: 170px;
-    width: 170px;
-    top: -85px
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: rgb(215, 220, 255);
+  height: 170px;
+  width: 170px;
+  top: -85px
 }
 
 #CCL {
-    left: -85px;
+  left: -85px;
 }
+
 #CCR {
-    left: calc(100% - 85px)
+  left: calc(100% - 85px)
 }
